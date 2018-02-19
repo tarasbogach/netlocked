@@ -1,0 +1,41 @@
+{
+  "name": "netlocked",
+  "version": "1.0.0",
+  "description": "Manage semaphores in memory till clients are online. Nodejs based server, and multilingual client library.",
+  "scripts": {
+    "dev-server": "nodemon --watch lib ./bin/netlocked",
+    "dev-cli": "nodemon --watch lib ./bin/netlockedcli",
+    "server": "./bin/netlocked",
+    "cli": "./bin/netlockedcli"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tarasbogach/netlocked.git"
+  },
+  "keywords": [
+    "lock",
+    "net",
+    "key-value",
+    "memory"
+  ],
+  "author": "Traras Bogach <taras.bogach@gmail.com>",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/tarasbogach/netlocked/issues"
+  },
+  "homepage": "https://github.com/tarasbogach/netlocked#readme",
+  "bin": {
+    "netlocked": "./bin/netlocked",
+    "netlockedcli": "./bin/netlockedcli"
+  },
+  "dependencies": {
+    "chalk": "^2.3.1",
+    "cli": "^0.11.2",
+    "colors": "^1.1.2",
+    "moment-timezone": "^0.5.14",
+    "yargs": "^11.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.15.0"
+  }
+}

@@ -1,0 +1,4 @@
+#!/usr/bin/env node
+
+const Client = require('../lib/Client.js');
+new Client();

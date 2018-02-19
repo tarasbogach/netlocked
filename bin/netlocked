@@ -1,0 +1,4 @@
+#!/usr/bin/env node
+
+const Server = require('../lib/Server.js');
+new Server();
