@@ -1,3 +1,6 @@
-node_modulesss
-npm-debug.log
+*.pem
+*.log
+node_modules
 .gitignore
+.idea
+.DS_Store
